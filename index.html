@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UDES Learning Lab</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- Header / Navbar -->
+    <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-indigo-600 p-2 rounded-lg text-white">
+                    <i class="fa-solid fa-stethoscope text-xl"></i>
+                </div>
+                <div>
+                    <span class="font-bold text-lg tracking-wide">UDES Learning Lab</span>
+                    <span class="block text-xs text-slate-400">Medicina - Informe de Laboratorio</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium text-slate-300">
+                <a href="#introduccion" class="hover:text-white transition">Introducción</a>
+                <a href="#simuladores" class="hover:text-white transition">Simuladores</a>
+                <a href="#categorias" class="hover:text-white transition">Fidelidad</a>
+                <a href="#encuesta" class="hover:text-white transition text-indigo-400 font-semibold">Encuesta</a>
+                <a href="#reflexion" class="hover:text-white transition">Aprendizaje</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="bg-indigo-500/20 text-indigo-300 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider border border-indigo-500/30">
+                Facultad de Ciencias Médicas y de la Salud
+            </span>
+            <h1 class="mt-4 text-4xl sm:text-5xl font-extrabold tracking-tight">
+                UDES Learning Lab
+            </h1>
+            <p class="mt-6 text-lg sm:text-xl text-slate-300 leading-relaxed">
+                Entorno seguro, controlado y de alta fidelidad para el desarrollo de competencias clínicas, quirúrgicas y de emergencia sin comprometer la seguridad del paciente[cite: 1].
+            </p>
+            <div class="mt-8 flex flex-wrap justify-center gap-4 text-xs text-slate-400">
+                <span class="bg-slate-800/80 px-4 py-2 rounded-lg border border-slate-700">Autores: Maria Gabriela Uscátegui & Paula Ximena Múnera[cite: 1]</span>
+                <span class="bg-slate-800/80 px-4 py-2 rounded-lg border border-slate-700">Docente: Pedro Jaimes[cite: 1]</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+
+        <!-- Introducción -->
+        <section id="introduccion" class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 sm:p-10">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-3">
+                    <i class="fa-solid fa-circle-info text-indigo-600"></i> Introducción a la Simulación Médica
+                </h2>
+                <p class="mt-4 text-slate-600 leading-relaxed">
+                    La simulación médica es una estrategia educativa que busca recrear de manera segura y controlada situaciones clínicas reales. Su propósito fundamental es que los estudiantes desarrollen competencias prácticas y teóricas mediante la práctica deliberada, la repetición de procedimientos y el aprendizaje a partir del error[cite: 1].
+                </p>
+                <p class="mt-4 text-slate-600 leading-relaxed">
+                    La visita a los laboratorios de simulación en la sede Cúcuta permitió explorar dispositivos diseñados para el entrenamiento clínico, facilitando la integración crucial entre los fundamentos teóricos y el entorno real del quirófano y la urgencia[cite: 1].
+                </p>
+            </div>
+        </section>
+
+        <!-- Listado de Simuladores -->
+        <section id="simuladores" class="space-y-8">
+            <div class="text-center max-w-2xl mx-auto">
+                <h2 class="text-3xl font-extrabold text-slate-900">Descripción de los Simuladores Observados</h2>
+                <p class="mt-2 text-slate-600">Equipamiento tecnológico especializado disponible en los laboratorios de la UDES[cite: 1].</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- 1. Dr. ET -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="h-48 bg-slate-900 overflow-hidden relative flex items-center justify-center p-2">
+                            <img src="https://imgs.search.brave.com/BRFPzB0yNuGjh8Cy0yzvYcqe0WD47cHL-OQLEtURGLI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly/mLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFvYW1IMHR0REwu/anBn" alt="Dr. ET EndoTrainer" class="w-full h-full object-cover">
+                            <span class="absolute top-3 right-3 bg-slate-900/80 text-white text-xs font-medium px-2.5 py-1 rounded">Hecho en Colombia</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-slate-900">1. Dr. ET EndoTrainer</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Simulador a escala real que reproduce una cirugía laparoscópica, permitiendo practicar el manejo de instrumentos y situaciones reales del quirófano[cite: 1].
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 text-xs text-slate-400">
+                        Laboratorio de Laparoscopia[cite: 1]
+                    </div>
+                </div>
+
+                <!-- 2. Cystoscopy and Ureteroscopy Trainer -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="h-48 bg-white overflow-hidden relative flex items-center justify-center p-4">
+                            <img src="https://imgs.search.brave.com/hRBOGaUf2qq2ggY5A8bJ6HTzhrYcE2uSRH7lniZ6EXM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z3RzaW11bGF0b3Jz/LmNvbS9jZG4vc2hv/cC9wcm9kdWN0cy9o/eXN0ZXJvc2NvcHkt/YW5kLXJlc2VjdG9z/Y29weS1zdXJnaWNh/bC1zaW11bGF0b3It/ZXR4eS1oeXN0ZXJv/LTY3ODI2N18yMzB4/LmpwZz92PTE2NzEy/MjM3MDQ" alt="Cystoscopy and Ureteroscopy Trainer" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-slate-900">2. Simulador de Cistoscopia y Ureteroscopia</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Reproduce con precisión la anatomía y condiciones del abdomen humano, permitiendo practicar la colocación de instrumentos y manejo de la cámara[cite: 1].
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 text-xs text-slate-400">
+                        Entrenamiento Quirúrgico[cite: 1]
+                    </div>
+                </div>
+
+                <!-- 3. Simuladores Digitales de Ojos y Oídos -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="h-48 bg-white overflow-hidden relative flex items-center justify-center p-4">
+                            <img src="https://imgs.search.brave.com/Jc2ptOrYyDdtL12oPKyh_VrJJVL4RgIMHp-NO-JkRZM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tb3Jl/dGhhbnNpbXVsYXRv/cnMuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIxLzA1LzI4/MjQtMzAweDIwMC5q/cGc" alt="Simuladores Digitales de Ojos y Oídos" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-slate-900">3. Simuladores Digitales de Ojos y Oídos</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Diseñados exclusivamente para practicar el examen de ojos y oídos usando el oftalmoscopio y el otoscopio para identificar estructuras y patologías[cite: 1].
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 text-xs text-slate-400">
+                        Laboratorio de Semiología[cite: 1]
+                    </div>
+                </div>
+
+                <!-- 4. SAM Basic -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="h-48 bg-white overflow-hidden relative flex items-center justify-center p-4">
+                            <img src="https://imgs.search.brave.com/ify_QpKL7bOI6qfUvmgowuVo7O_Bt-torJyzaATQHr8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jYXRh/bG9nb21lZGljb214/LnMzLmFtYXpvbmF3/cy5jb20vcHJvZHVj/Y2lvbi9pbWcvcC8z/LzgvNy8zLzYvMzg3/MzYtaG9tZV9kZWZh/dWx0LmpwGc" alt="SAM Basic" class="max-h-full max-w-full object-contain">
+                            <span class="absolute top-3 right-3 bg-indigo-600 text-white text-xs font-medium px-2.5 py-1 rounded">Cardionics</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-slate-900">4. Maniquí de Auscultación para Adultos SAM Basic</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Diseñado para la enseñanza de la auscultación cardíaca y pulmonar. Permite escuchar ruidos normales y patológicos del corazón y pulmones[cite: 1].
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 text-xs text-slate-400">
+                        Laboratorio de Semiología[cite: 1]
+                    </div>
+                </div>
+
+                <!-- 5. HAL -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="h-48 bg-white overflow-hidden relative flex items-center justify-center p-4">
+                            <img src="https://imgs.search.brave.com/IRC0AyyzYkZkZLzwguigDOJNr43iUeAnatx4FlNKlj4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWZp/bmEtbWVkaWNhbC5k/ZS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NS8wNi9HYXVtYXJk/LVMxMDAwLWludHVi/aWVydC1taXQtUGVy/c29uLVJlYW5pbWF0/aW9uLVVlYnVuZy1z/Y2FsZWQuanBn" alt="HAL (Gaumard)" class="max-h-full max-w-full object-contain">
+                            <span class="absolute top-3 right-3 bg-rose-600 text-white text-xs font-medium px-2.5 py-1 rounded">Alta Fidelidad</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-slate-900">5. Simulador de Alta Fidelidad HAL</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Simulador de alta fidelidad que reproduce signos vitales en tiempo real, respiración, pulso y respuestas a fármacos para escenarios de emergencia[cite: 1].
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 text-xs text-slate-400">
+                        Cuidados Críticos y Urgencias[cite: 1]
+                    </div>
+                </div>
+
+                <!-- 6. Noelle -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="h-48 bg-white overflow-hidden relative flex items-center justify-center p-4">
+                            <img src="https://imgs.search.brave.com/H1s2xj9-PqpNaTbaaZ0mHQGj7dCJxji15TpLS08ydVk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/M2JzY2llbnRpZmlj/LmNvbS9pbWFnZWxp/YnJhcnkvVzQ1MTc3/L1c0NTE3N18wMV9O/T0VMTEUtU2ltdWxh/ZG9yLWRlLXBhcnRv/LWNvbi1QRURJLUJs/dWUtTmVvbmF0ZS5q/cGc" alt="Noelle con Pedi Blue Neonate" class="max-h-full max-w-full object-contain">
+                            <span class="absolute top-3 right-3 bg-purple-600 text-white text-xs font-medium px-2.5 py-1 rounded">Obstetricia</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-slate-900">6. Simulador de Parto Noelle con Neonato Pedi Blue</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Orientado a obstetricia y neonatología. Permite recrear partos normales y complicados, así como maniobras de reanimación neonatal[cite: 1].
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 text-xs text-slate-400">
+                        Laboratorio de Obstetricia[cite: 1]
+                    </div>
+                </div>
+
+                <!-- 7. Airway Larry -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md transition md:col-span-2 lg:col-span-1">
+                    <div>
+                        <div class="h-48 bg-white overflow-hidden relative flex items-center justify-center p-4">
+                            <img src="https://www.aedsuperstore.com/thumbnail.asp?file=assets/images/LF03684U.jpg&maxx=500&maxy=0" alt="Life-Form Advanced Airway Larry" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-slate-900">7. Torso Avanzado para Vía Aérea Airway Larry</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Combina manejo de vía aérea con funciones de desfibrilación, simulación de ECG y práctica con DEA con gran realismo anatómico[cite: 1].
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 text-xs text-slate-400">
+                        Laboratorio de Emergencias[cite: 1]
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Categorías de Fidelidad -->
+        <section id="categorias" class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 sm:p-10">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6">Clasificación de los Simuladores por Grado de Realismo</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <span class="text-indigo-600 font-bold text-sm">NIVEL 1</span>
+                    <h3 class="text-lg font-semibold text-slate-900 mt-1">Baja Fidelidad</h3>
+                    <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                        Simuladores de partes anatómicas para entrenar procedimientos puntuales como toma de tensión, inyecciones o exploración ginecológica[cite: 1].
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <span class="text-indigo-600 font-bold text-sm">NIVEL 2</span>
+                    <h3 class="text-lg font-semibold text-slate-900 mt-1">Fidelidad Media</h3>
+                    <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                        Combinan partes anatómicas con programas para variar parámetros dinámicos, como el simulador SAM para ruidos cardíacos y pulmonares[cite: 1].
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <span class="text-indigo-600 font-bold text-sm">NIVEL 3</span>
+                    <h3 class="text-lg font-semibold text-slate-900 mt-1">Alta Fidelidad</h3>
+                    <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                        Maniquíes completos controlados por hardware/software que representan pacientes integrando múltiples variables fisiológicas para intubación y RCP[cite: 1].
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apartado: Encuesta de Satisfacción -->
+        <section id="encuesta" class="bg-gradient-to-br from-indigo-900 to-slate-900 text-white rounded-3xl p-8 sm:p-12 shadow-xl">
+            <div class="max-w-2xl mx-auto">
+                <div class="text-center">
+                    <span class="bg-indigo-500/30 text-indigo-200 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider border border-indigo-400/30">
+                        Feedback y Evaluaciones
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold mt-3">Encuesta de Satisfacción - Laboratorios UDES</h2>
+                    <p class="text-slate-300 text-sm mt-2">
+                        Ayúdanos a evaluar la utilidad de la visita y la experiencia con los simuladores clínicos[cite: 1].
+                    </p>
+                </div>
+
+                <form id="satisfactionForm" class="mt-8 space-y-6 bg-white/10 backdrop-blur-md p-6 sm:p-8 rounded-2xl border border-white/10">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-200 mb-2">Nombre completo (Opcional)</label>
+                        <input type="text" id="nombreUsuario" placeholder="Ej. Miguel Pacheco" class="w-full px-4 py-3 bg-slate-800/60 border border-slate-700 rounded-xl text-white placeholder-slate-400 focus:outline-none focus:border-indigo-400 transition">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-slate-200 mb-2">¿Cómo calificarías la utilidad de los simuladores en tu formación médica?</label>
+                        <select id="calificacionUtilidad" class="w-full px-4 py-3 bg-slate-800/60 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-400 transition">
+                            <option value="Excelente" class="bg-slate-900">Excelente - Indispensable para el aprendizaje</option>
+                            <option value="Muy Buena" class="bg-slate-900">Muy Buena - Aporta gran valor práctico</option>
+                            <option value="Buena" class="bg-slate-900">Buena - Complementa la teoría</option>
+                            <option value="Regular" class="bg-slate-900">Regular - Necesita mejoras</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-slate-200 mb-2">¿Cuál simulador te pareció más impactante o útil?</label>
+                        <input type="text" id="simuladorFavorito" placeholder="Ej. HAL (Gaumard) o Dr. ET" class="w-full px-4 py-3 bg-slate-800/60 border border-slate-700 rounded-xl text-white placeholder-slate-400 focus:outline-none focus:border-indigo-400 transition">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-slate-200 mb-2">Comentarios, sugerencias o conclusiones adicionales</label>
+                        <textarea id="comentarios" rows="3" placeholder="Escribe tus impresiones sobre la infraestructura y los equipos..." class="w-full px-4 py-3 bg-slate-800/60 border border-slate-700 rounded-xl text-white placeholder-slate-400 focus:outline-none focus:border-indigo-400 transition"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition duration-200 flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-paper-plane"></i> Enviar Encuesta
+                    </button>
+
+                    <div id="mensajeExito" class="hidden text-center text-emerald-300 font-medium text-sm bg-emerald-950/50 p-3 rounded-xl border border-emerald-500/30">
+                        ¡Gracias por completar la encuesta! Tus respuestas han sido registradas exitosamente.
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Reflexión y Conclusiones -->
+        <section id="reflexion" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-indigo-900 text-white rounded-2xl p-8 sm:p-10 flex flex-col justify-between">
+                <div>
+                    <h2 class="text-2xl font-bold mb-4">Aprendizaje Personal</h2>
+                    <p class="text-indigo-100 text-sm leading-relaxed">
+                        La visita permitió comprender que el aprendizaje en medicina no se limita a la teoría, sino que requiere espacios para practicar y equivocarse sin riesgo para los pacientes, fortaleciendo la preparación profesional[cite: 1].
+                    </p>
+                </div>
+                <div class="mt-6 pt-6 border-t border-indigo-800 text-xs text-indigo-300">
+                    Facultad de Medicina - UDES Cúcuta[cite: 1]
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 sm:p-10 flex flex-col justify-between">
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">Conclusiones</h2>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        La simulación constituye un entorno seguro para practicar procedimientos y desarrollar habilidades técnicas y blandas, siendo un complemento indispensable de la práctica clínica[cite: 1].
+                    </p>
+                </div>
+                <div class="mt-6 pt-6 border-t border-slate-100 text-xs text-slate-400">
+                    Basado en Informe de Laboratorio (2025)[cite: 1]
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 mt-20 border-t border-slate-800 text-center text-sm">
+        <p>Universidad de Santander (UDES) • Programa de Medicina • Cúcuta[cite: 1]</p>
+    </footer>
+
+    <!-- Script JavaScript para manejar la encuesta -->
+    <script>
+        document.getElementById('satisfactionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const mensaje = document.getElementById('mensajeExito');
+            mensaje.classList.remove('hidden');
+            this.reset();
+            setTimeout(() => {
+                mensaje.classList.add('hidden');
+            }, 5000);
+        });
+    </script>
+
+</body>
+</html>
